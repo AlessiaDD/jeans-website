@@ -1,0 +1,90 @@
+@media screen and (min-width:768px) and (max-width:1023px) {
+.hamburger{padding-top:20px;
+           padding-bottom:20px;
+           padding-left:20px;}
+h2 {font-size:24px;}
+h3 {font-size:36px;
+    margin-top:5%;}
+h4 {font-size:18px;}
+h1 {font-size:16px;
+    width:60%;}
+h5{font-size:20px;}
+.grid figure {height: 300px;}   
+.li-footer a {font-size:14px;
+                  line-height: 36px;}
+.footer-right a {font-size:16px;}
+.footer-center img {width:15%;}
+.footer-center img:hover {width:6%;}}
+
+
+
+
+@media screen and (max-width : 767px){
+.menu {height: 50px;}
+.ul-menu {
+        margin:0%;
+        text-align: center;
+        position: static;
+        display: none;
+        width:100%;
+    }
+    
+.hamburger {padding-top:14px;
+              padding-bottom:10px;
+              padding-left:10px;
+              float:left;
+              }
+label:after {content: "";
+                 display: block;
+                 clear:both;}
+.li-menu {background-color:mistyrose;
+        margin-bottom: 1px;
+    }
+.li-menu a {padding:0px;
+         margin:5px;
+         color:#202632;}
+  
+.li-menu, .li-menu a {
+        width: 100%;
+    }
+  
+.show-menu {padding:10px,0px;;
+        display:block;
+    }
+    
+.logo {display: none;}
+.menu.sticky .hamburger {width:20px;}
+.menu.sticky {background-color:#202632;
+              opacity: 1;
+              height: auto;}
+.contenuto-1 {margin-top:50px;}
+    h1 {    margin: 80px auto 80px auto;}
+h2 {font-size:14px;}
+h3 {font-size:20px;
+    margin-top: 5%;}
+h4 {font-size:14px;}
+h1 {font-size:14px;
+    width:60%;}
+h5{margin-top:0;
+   font-size:16px;}
+.grid figure {height:280px;
+              width:50%;
+              margin-right:24.5%;
+              margin-left:24.5%;}   
+.footer-left {width:100%;
+                 margin:0% auto;
+                 text-align: center;}
+.ul-footer   {padding:0%;}
+.li-footer a{font-size: 12px;
+                 line-height: 24px;}
+.footer-center {width:100%;
+                    margin-top:0%;
+                    margin-bottom: 3%;}
+.footer-center img {padding:3%;
+                        width:8%;}
+.footer-center img:hover {width:8%;}
+.footer-right {width:100%;
+                   margin:0%;
+                   text-align:center;
+                   margin-bottom: 5%;}
+.footer-right a {font-size: 14px;}}

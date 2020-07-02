@@ -1,0 +1,194 @@
+<html>
+<style>
+ .grid {
+	position: relative;
+	margin: 0 auto;
+	padding-top: 1em;
+	max-width:100%;
+	list-style: none;
+	text-align: center;
+}
+    
+    
+    
+.grid figure {
+	position: relative;
+	float: left;
+	overflow: hidden;
+	margin-top: 1%;
+	width: 20%;
+    height: 420px;
+	text-align: center;
+	cursor: pointer;
+    border: 1px solid mistyrose;
+}
+span {font-family: 'Montserrat', sans-serif;
+      font-size:22px;
+      font-weight: 900;}
+.uno {margin-left:3.2%;
+      margin-right:1.6%}
+.due {margin-left:1.6%;
+      margin-right:1.6%;}
+.tre {margin-left:1.6%;
+      margin-right:1.6%;}
+.quattro {margin-left:1.6%;
+          margin-right:3.2%;}
+.grid figure img {
+	position: relative;
+	display: block;
+    width:100%;
+    height:100%;
+	min-height: 100%;
+	max-width: 100%;
+	opacity: 0.8;
+}
+
+.grid figure figcaption {
+	padding: 2em;
+	color: #202632;
+	text-transform: uppercase;
+	font-size: 1.25em;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.grid figure figcaption::before,
+.grid figure figcaption::after {
+	pointer-events: none;
+}
+
+.grid figure figcaption,
+.grid figure figcaption > a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 80%;
+	height: 80%;
+}
+    
+.grid figure figcaption > a {
+	z-index: 1000;
+	text-indent: 200%;
+	white-space: nowrap;
+	font-size: 0;
+	opacity: 0;
+}
+
+.grid figure h6 {
+	font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+.grid figure h6,
+.grid figure p {
+	margin: 0;
+}
+
+.grid figure p {
+	letter-spacing: 1px;
+	font-size: 24px;
+}
+
+    figure.effect-honey {
+	background: mistyrose;
+}
+
+figure.effect-honey img {
+	opacity: 0.9;
+	-webkit-transition: opacity 0.35s;
+	transition: opacity 0.35s;
+}
+
+figure.effect-honey:hover img {
+	opacity: 0.5;
+}
+
+figure.effect-honey figcaption::before {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 10px;
+	background: #202632;
+	content: '';
+	-webkit-transform: translate3d(0,30px,0);
+	transform: translate3d(0,30px,0);
+}
+
+figure.effect-honey h6 {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	padding: 1em 1.5em;
+	width: 100%;
+	text-align: left;
+	-webkit-transform: translate3d(0,-20px,0);
+	transform: translate3d(0,-20px,0);
+}
+
+figure.effect-honey h6 i {
+	font-style: normal;
+    font-family: 'Damine, serif';
+    font-weight: 400;
+    font-size: 16px;
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: translate3d(0,-35px,0);
+	transform: translate3d(0,-35px,0);
+}
+
+figure.effect-honey figcaption::before,
+figure.effect-honey h6 {
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+}
+
+figure.effect-honey:hover figcaption::before,
+figure.effect-honey:hover h6,
+figure.effect-honey:hover h6 i {
+	opacity: 1;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+.grid:after {content: "";
+            display: block;
+            clear: both;}
+
+</style>
+<body>
+ <div class="grid">
+					<figure class="effect-honey uno">
+						<img src="images/DR121N00J-K11@10.1.jpg" alt="img04"/>
+						<figcaption>
+							<h6><i><span>Jeans vita alta</span><br>Scopri</i></h6>
+							<a href="#">View more</a>
+						</figcaption>			
+					</figure>
+					<figure class="effect-honey due">
+						<img src="images/Jeans-Boyfriend-i-modelli-di-tendenza_o_su_horizontal_fixed.jpg" alt="img05"/>
+						<figcaption>
+							<h6><i><span>Jeans Boyfriend</span><br>Scopri</i></h6>
+							<a href="#">View more</a>
+						</figcaption>			
+					</figure>
+                    <figure class="effect-honey tre">
+						<img src="images/Hollister-jeans-a-vita-alta.jpg" alt="img04"/>
+						<figcaption>
+							<h6><i><span>Jeans a zampa</span><br>Scopri</i></h6>
+							<a href="#">View more</a>
+						</figcaption>			
+					</figure>
+					<figure class="effect-honey quattro">
+						<img src="images/MA421S005-K11@10.jpg" alt="img05"/>
+						<figcaption>
+							<h6><i><span>Shorts vita alta</span><br>Scopri</i></h6>
+							<a href="#">View more</a>
+						</figcaption>			
+					</figure>
+				</div>
+    
+ </body>   
+</html>

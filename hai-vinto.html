@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Jeans</title>
+</head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" user-scalable=yes>    
+<script src="http://code.jquery.com/jquery-3.2.1.min.js" type="text/javascript"></script>
+<link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Domine:400,700" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+<link type="text/css" rel="stylesheet" href="css/hai-vinto-style.css">
+
+
+<body> 
+<div class="wrapper">
+    <h1>Complimenti! Hai vinto il 5% di sconto sul tuo prossimo acquisto!</h1>
+    <h2>Compila il form sottostante e ti invieremo il codice via mail. Ricordati di stamparlo e portarlo in negozio, o, in caso di acquisto online, ti inoltrarci la mail che ti arriverà.</h2>
+  <div class="row">
+    <form class="col s12">
+      <div class="row">
+          <div class="input-field col s6">
+          <input id="last_name" type="text" class="validate">
+          <label for="last_name">Nome</label>
+        </div>
+        <div class="input-field col s6">
+          <input id="last_name" type="text" class="validate">
+          <label for="last_name">Cognome</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="email" type="email" class="validate">
+          <label for="email">Email</label>
+        </div>
+      </div>
+    </form>
+    </div>
+    <button id="bottone1" onClick="invia()">INVIA</button>
+</div> 
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+<script>
+  
+  function invia()
+    {alert("Ti abbiamo inviato il codice via mail! Goditi il tuo sconto!")}
+    
+       
+   
+</script> 
+</html>

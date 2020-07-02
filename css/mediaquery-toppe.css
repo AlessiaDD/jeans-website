@@ -1,0 +1,101 @@
+@media screen and (min-width:768px) and (max-width:1023px) {
+.hamburger{padding-top:20px;
+           padding-bottom:20px;
+           padding-left:20px;}
+    
+.animation-wrapper {background-image: url(../images/Sewing-Accessories-Patchworks-Cartoon-Iron-Embroidered-font-b-Patches-b-font-font-b-Kids-b.jpg);
+    height:400px;} 
+.patch1, .patch2, .patch3, .patch4, .patch5, .patch6, .patch7, .patch8, .patch9, .patch10, .patch11, .patch12, .patch13, .patch14, .patch15 {display: none;}
+.contenuto-1 {display: none;}   
+h2 {width:40%;}
+.li-footer a {font-size:14px;
+                  line-height: 36px;}
+.footer-right a {font-size:16px;}
+.footer-center img {width:15%;}
+.footer-center img:hover {width:6%;}}
+
+
+
+
+
+@media screen and (max-width : 767px){
+.menu {height: 50px;}
+.ul-menu {
+        margin:0%;
+        text-align: center;
+        position: static;
+        display: none;
+        width:100%;
+    }
+    
+.hamburger {padding-top:14px;
+              padding-bottom:10px;
+              padding-left:10px;
+              float:left;
+              }
+label:after {content: "";
+                 display: block;
+                 clear:both;}
+.li-menu {background-color:mistyrose;
+        margin-bottom: 1px;
+    }
+.li-menu a {padding:0px;
+         margin:5px;
+         color:#202632;}
+  
+.li-menu, .li-menu a {
+        width: 100%;
+    }
+  
+.show-menu {padding:10px,0px;;
+        display:block;
+    }
+    
+.logo {display: none;}
+.menu.sticky .hamburger {width:20px;}
+.menu.sticky {background-color:#202632;
+              opacity: 1;
+              height: auto;}
+.animation-wrapper {background-image: url(../images/Sewing-Accessories-Patchworks-Cartoon-Iron-Embroidered-font-b-Patches-b-font-font-b-Kids-b.jpg);
+    height:300px;} 
+.patch1, .patch2, .patch3, .patch4, .patch5, .patch6, .patch7, .patch8, .patch9, .patch10, .patch11, .patch12, .patch13, .patch14, .patch15 {display: none;}
+.contenuto-1 {display: none;}
+h2 {width:50%;
+        font-size: 14px;}
+    .contenuto-2 {
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+.contenuto-3 {margin-right: 0%;
+                  margin-left: 0%;}
+.spiegazione {width:100%;
+               float:none;}
+.immagine-spiegazione {width:80%;
+                       margin-right: 10%;
+                       margin-left: 10%;}
+h4 {margin-top: 2%;
+    margin-bottom: 2%;
+    font-size: 16px;}
+h5 {margin: 2% auto 5% auto;
+    font-size: 14px;}
+    .footer {
+        margin-top: 80px;
+    }
+    
+.footer-left {width:100%;
+                 margin:0% auto;
+                 text-align: center;}
+.ul-footer   {padding:0%;}
+.li-footer a{font-size: 12px;
+                 line-height: 24px;}
+.footer-center {width:100%;
+                    margin-top:0%;
+                    margin-bottom: 3%;}
+.footer-center img {padding:3%;
+                        width:8%;}
+.footer-center img:hover {width:8%;}
+.footer-right {width:100%;
+                   margin:0%;
+                   text-align:center;
+                   margin-bottom: 5%;}
+.footer-right a {font-size: 14px;}}

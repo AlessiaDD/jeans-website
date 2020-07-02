@@ -1,0 +1,167 @@
+html {margin:0;
+      padding:0;}
+body {margin:0;
+      padding:0;}
+.wrapper {width:100%;
+          height:100%;
+          position:relative;}
+.menu {position:fixed;
+       top:0;
+       width:100%;
+       z-index:1;
+       background-color:#202632;
+       height:60px;
+       opacity: 0.9;}
+.menu ul {margin:1%;}
+.mobile-logo {width:100px;
+              padding-top:8px;
+              padding-right:24px;}
+.menu .logo:hover {width:100px;}
+.menu:after {content: "";
+             display: block;
+             clear:both;}
+.logo {float:left;
+       margin-left:5%;
+       padding:0.8% 10px 0 10px;}
+.logo:hover {content:url(../images/logo_rosa.png);
+             width:150px;}
+.ul-menu {float:right;
+          margin:2%;
+          list-style:none;}
+.li-menu {display: inline-block;
+         float: left;
+         margin-right: 1px;}
+.li-menu a{text-decoration:none;
+           color:mistyrose;
+           font-size:18px;
+           font-weight: bold;
+           font-family: 'Montserrat', sans-serif;
+           padding:5px 10px 0 10px;
+           display: block;}
+.li-menu a:hover {color:cornflowerblue;}
+.li-menu.active a{color:cornflowerblue;}
+.show-menu {background: #202632;
+            text-align: center;
+            width:100%;
+            display: none;}
+input[type=checkbox]{display: none;}
+input[type=checkbox]:checked ~ #menu{
+    display: block;}
+
+.contenuto-1 {width:100%;
+              margin-top: 60px;
+              height:400px;
+              background-image: url(../images/aeo-store-set-up_mens-jeans-wall_1-1170x780.jpg);
+              background-repeat: no-repeat;
+              background-size: cover;}
+.contenuto-2 {width:100%;
+margin-top: 150px;
+margin-bottom: 150px;}
+.informazioni {text-align: center;
+               width:50%;
+               float:left;}
+h1 {margin-top: 15%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #202632;
+    text-align: center;}
+h2 {font-family: 'Domine', serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #202632;
+    margin-bottom: 10%;}
+.registrazione {width: 50%;
+                float: left;}
+form {margin-top: 5%;
+      margin-bottom: 5%;}
+.input-field label {
+     color: #202362;
+     font-family: 'Montserrat',sans-serif;
+     font-size: 14px;
+   }
+
+input[type=text]:not(.browser-default){
+     border-bottom: 1px solid #202632;
+     box-shadow: 0 0 0 0 #202632;}
+
+input[type=email]:not(.browser-default){
+     border-bottom: 1px solid #202632;
+     box-shadow: 0 0 0 0 #202632;}
+
+
+input[type=text]:not(.browser-default):focus:not([readonly]) {border-bottom: 1px solid #202632;
+box-shadow: 0 1px 0 0 #202632;}
+        
+
+input[type=text]:not(.browser-default):focus:not([readonly])+label{color:#202632;
+                                     font-weight: bold;}
+
+input[type=email]:not(.browser-default):focus:not([readonly]) {border-bottom: 1px solid #202632;
+box-shadow: 0 1px 0 0 #202632;}
+        
+
+input[type=email]:not(.browser-default):focus:not([readonly])+label{color:#202632;
+                                     font-weight: bold;}
+
+ .input-field input[type=text].valid {
+     border-bottom: 1px solid #202362;
+     box-shadow: 0 0px 0 0 #202362;}
+     
+     .input-field input[type=email].valid {
+     border-bottom: 1px solid #202632;
+         box-shadow: 0 0px 0 0 #202632;}
+
+.contenuto-2:after {content: "";
+                    display: block;
+                    clear:both;}
+
+.footer {width:100%;
+         background-color:#202632; }
+.footer-left {width:20%;
+              margin-left:20%;
+              margin-right:0%;
+             float:left;}
+.ul-footer {list-style:none;
+            padding-top:5%;
+            padding-bottom:5%;}
+.li-footer a {text-decoration:none;
+            color:mistyrose;
+            font-size:16px;
+            line-height: 36px;
+            font-family: 'Montserrat', sans-serif;}
+.li-footer a:hover {color:cornflowerblue;}
+.footer-center {width:20%;
+                float:left;
+                text-align: center;
+                margin-top:5%;}
+.footer-center img {padding:4%;
+                    width:15%;}
+.facebook:hover {content:url(../images/social-facebook-circular-button%20copia.svg);
+                 width:15%;}
+.instagram:hover {content:url(../images/instagram-logo%20copia.svg);
+                  width:15%;}
+.twitter:hover  {content:url(../images/social-twitter-circular-button2.svg);
+                 width:15%;}
+.pinterest:hover {content:url(../images/pinterest-social-logo%20copia.svg)}
+.footer-right  {width:20%;
+                margin-right:20%;
+                float:left;
+                margin-top:5%;
+                text-align:right;}
+.footer-right a {text-decoration:none;
+                 color:mistyrose;
+                font-size:18px;
+                font-family: 'Montserrat', sans-serif;
+                font-weight:500;}
+.footer-right a:hover {color:cornflowerblue;}
+.footer:after {content:"";
+               display: block;
+               clear: both;}  
+
+@media screen and (max-width : 767px){
+    .contenuto-2 {
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+}
