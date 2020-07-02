@@ -1,2 +1,2 @@
 # jeans-website
-First Website ever
+Website I made for my Web Graphic Design Exam 
